@@ -1,10 +1,10 @@
 # McKinsey Research - AI Strategy Consultant Skill
 
-Turn any AI agent into a full McKinsey-level strategy consulting team using 12 specialized prompts.
+Turn any AI agent into a full McKinsey-level strategy consulting team for complete market research and analysis.
 
 ## What It Does
 
-This skill runs 12 consulting-grade analyses on your business:
+This skill runs a full suite of consulting-grade analyses on your business:
 
 1. **Market Sizing & TAM Analysis** - Total addressable market with top-down and bottom-up approaches
 2. **Competitive Landscape** - Top 10 competitors ranked by market share, revenue, and funding
@@ -23,7 +23,7 @@ This skill runs 12 consulting-grade analyses on your business:
 
 1. The agent asks your preferred language (Arabic or English)
 2. Collects all required business information in one structured intake
-3. Runs all 12 analyses sequentially with your data
+3. Runs all analyses sequentially with your data
 4. Delivers each analysis as a complete consulting-grade deliverable
 
 ## Installation
@@ -120,9 +120,7 @@ mckinsey-research/
 
 ## Credits
 
-Prompts inspired by [@socialwithaayan](https://x.com/socialwithaayan/status/2021233357514997824)
-
-Skill built by [@Abdullah4AI](https://x.com/Abdullah4AI)
+Built by [@Abdullah4AI](https://x.com/Abdullah4AI)
 
 ## License
 

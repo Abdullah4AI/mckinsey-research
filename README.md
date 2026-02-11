@@ -28,33 +28,72 @@ This skill runs 12 consulting-grade analyses on your business:
 
 ## Installation
 
-### Via ClawHub (Recommended)
+### Universal (Works with all platforms)
 
 ```bash
-npm i -g clawhub
+npx skills add Abdullah4AI/mckinsey-research
+```
+
+### OpenClaw
+
+```bash
 clawhub install mckinsey-research
 ```
 
-### Manual Installation
-
-Clone this repo and copy the `mckinsey-research` folder to your agent's skills directory:
-
-| Platform | Skills Directory |
-|----------|-----------------|
-| **OpenClaw** | `~/.openclaw/skills/` |
-| **Claude Code** | `~/.claude/skills/` |
-| **Antigravity** | `agent/skills/` |
-| **Augment** | `~/.augment/skills/` |
-| **Cline** | `cline/skills/` |
-| **CodeBuddy** | `~/.codebuddy/skills/` |
-| **Command Code** | `~/.commandcode/skills/` |
-| **Codex** | `agent/skills/` |
-
-Example:
+Or manually:
 
 ```bash
 git clone https://github.com/Abdullah4AI/mckinsey-research.git
 cp -r mckinsey-research ~/.openclaw/skills/
+```
+
+### Claude Code
+
+```bash
+git clone https://github.com/Abdullah4AI/mckinsey-research.git
+cp -r mckinsey-research ~/.claude/skills/
+```
+
+### Antigravity
+
+```bash
+git clone https://github.com/Abdullah4AI/mckinsey-research.git
+cp -r mckinsey-research agent/skills/
+```
+
+### Augment
+
+```bash
+git clone https://github.com/Abdullah4AI/mckinsey-research.git
+cp -r mckinsey-research ~/.augment/skills/
+```
+
+### Cline
+
+```bash
+git clone https://github.com/Abdullah4AI/mckinsey-research.git
+cp -r mckinsey-research cline/skills/
+```
+
+### CodeBuddy
+
+```bash
+git clone https://github.com/Abdullah4AI/mckinsey-research.git
+cp -r mckinsey-research ~/.codebuddy/skills/
+```
+
+### Command Code
+
+```bash
+git clone https://github.com/Abdullah4AI/mckinsey-research.git
+cp -r mckinsey-research ~/.commandcode/skills/
+```
+
+### Codex
+
+```bash
+git clone https://github.com/Abdullah4AI/mckinsey-research.git
+cp -r mckinsey-research agent/skills/
 ```
 
 ## Usage
@@ -76,7 +115,6 @@ mckinsey-research/
 ├── SKILL.md              # Main skill instructions
 ├── references/
 │   └── prompts.md        # The 12 strategy prompts with variables
-├── INSTALL.md            # Detailed installation guide
 └── README.md             # This file
 ```
 
